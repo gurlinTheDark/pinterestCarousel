@@ -1,5 +1,8 @@
-
-
+body{
+  background: url("https://subtlepatterns.com/patterns/footer_lodyas.png");
+  color:#fff;
+  font-family:'Pacifico', cursive;
+}
 .slick-initialized, .slick-slider{
   margin-left: 20%;
   margin-right: 20%;
@@ -7,8 +10,23 @@
 
 h1{
   text-align: center;
+  font-size: 2.5em;
 }
 img{
-    width:  500px;
+    width:  840px;
     height: 500px;
+    border: 5px solid #fff;
 }
+.slick-arrow{
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.loading{
+  text-align: center;
+}
+.slick-dots li button:before {
+    font-size: 15px;
+    top: 5px;
+    color: #fff;
+    opacity: 1;
+  }

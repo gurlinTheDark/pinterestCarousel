@@ -24,9 +24,11 @@
     "html-webpack-template": "^2.5.2",
     "immutable": "^3.7.6",
     "isomorphic-fetch": "^2.2.1",
+    "jquery": "1.11.3",
     "json-loader": "^0.5.4",
     "less": "^2.5.3",
     "less-loader": "2.2.2",
+    "magnific-popup": "1.1.0",
     "mocha": "^2.4.5",
     "react": "^0.14.6",
     "react-dom": "^0.14.6",
@@ -37,6 +39,7 @@
     "redux-logger": "^2.6.1",
     "redux-thunk": "^2.0.1",
     "routes": "^2.1.0",
+    "slick-carousel": "^1.6.0",
     "socket.io": "^1.4.5",
     "style-loader": "^0.13.0",
     "topojson": "^1.6.26",
@@ -45,8 +48,7 @@
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
     "webpack-merge": "^0.7.3",
-    "jquery": "1.11.3",
-    "magnific-popup": "1.1.0"
+    "react-slick":"*"
   },
   "scripts": {
     "start": "webpack-dev-server"

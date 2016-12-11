@@ -15,7 +15,7 @@ class CarouselSlider extends  React.Component{
     }
   render() {
    const {loadedPinterestImages} = this.props;
-    const settings = {
+   const settings = {
       dots: true,
       infinite: true,
       speed: 500,
@@ -24,18 +24,22 @@ class CarouselSlider extends  React.Component{
       autoplay:1
     };
     return (
-    <div>
-      <h1>PINTEREST CAROUSEL </h1>
-      { (!_.isEmpty(loadedPinterestImages)) ?
-      (<Slider {...settings}>
-          {loadedPinterestImages.map(function(image){
-          return(<div ><img src={image.image.original.url}/></div>)
-
-          })
-          }
-        </Slider>
-        ):
-        (<div>No results found</div>)
+      <div>
+          <h1>Pinterest Carousel </h1>
+          {
+            (!_.isEmpty(loadedPinterestImages)) ?
+              (<Slider {...settings}>
+              {
+                loadedPinterestImages.map(function(image){
+                return(
+                  <div>
+                    <img src={image.image.original.url}/>
+                  </div>)
+                  })
+                }
+              </Slider>
+            ):
+            (<div className="loading">Loading.........</div>)
         }
     </div>
     );
