@@ -48,7 +48,8 @@
     "webpack": "^1.12.9",
     "webpack-dev-server": "^1.14.0",
     "webpack-merge": "^0.7.3",
-    "react-slick":"*"
+    "react-slick":"*",
+    "gulp-shell": "0.5.2"
   },
   "scripts": {
     "start": "webpack-dev-server"
